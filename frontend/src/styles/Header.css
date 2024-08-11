@@ -1,4 +1,4 @@
-/* Header Container */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
     font-size: 20px;
     margin: 30px;
   }
-  /* Logo Section */
+  
   .logo  {
     height: 40px;
   }
@@ -24,7 +24,6 @@
     flex-direction: column;
   }
   
-  /* Main Navigation */
   .main-nav ul {
     display: flex;
     list-style: none;
@@ -45,10 +44,10 @@
   
   .main-nav ul li a:hover,
   .main-nav ul li a:focus {
-    color: #FF5A5F; /* Highlight color */
+    color: #FF5A5F; 
   }
   
-  /* Secondary Navigation */
+ 
   .secondary-nav ul {
     display: flex;
     list-style: none;
@@ -69,10 +68,10 @@
   
   .secondary-nav ul li a:hover,
   .secondary-nav ul li a:focus {
-    color: #FF5A5F; /* Highlight color */
+    color: #FF5A5F; 
   }
   
-  /* Header Actions (Consult Button and User Icon) */
+
   .header-actions {
     display: flex;
     align-items: center;
@@ -93,7 +92,7 @@
   
   .consult-button:hover,
   .consult-button:focus {
-    background-color: #e04c4d; /* Slightly darker shade on hover */
+    background-color: #e04c4d; 
   }
   
   .user-icon {
@@ -102,7 +101,7 @@
     cursor: pointer;
   }
   
-  /* Dropdown Indicators */
+ 
   .main-nav ul li a::after,
   .secondary-nav ul li a::after {
     content: '▾';
@@ -110,7 +109,7 @@
     font-size: 10px;
   }
   
-  /* Extra Styling for Active/Selected Item */
+
   .main-nav ul li.active a {
     color: #FF5A5F;
   }
